@@ -1,0 +1,106 @@
+Last login: Fri Feb 12 09:57:59 on console
+Rebeccas-Air:~$ ssh chum
+Enter passphrase for key '/Users/rebeccabeutel/.ssh/id_rsa': 
+Welcome to Ubuntu 16.04.7 LTS (GNU/Linux 4.4.0-168-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+1 package can be updated.
+0 of these updates are security updates.
+To see these additional updates run: apt list --upgradable
+
+*** System restart required ***
+Last login: Sun Jan 10 21:45:49 2021 from 69.172.157.103
+(base) chum:~$ ls
+anaconda3/  analysis/
+(base) chum:~$ cd analysis
+(base) chum:analysis$ ls
+eosc510/
+(base) chum:analysis$ git clone git@github.com:rbeutel/CIVL547.git
+Cloning into 'CIVL547'...
+warning: You appear to have cloned an empty repository.
+(base) chum:analysis$ ls
+CIVL547/  eosc510/
+(base) chum:analysis$ cd eosc510
+(base) chum:eosc510$ ls
+46087_2015.txt
+46087_2016.txt
+46087_2017.txt
+46087_2018.txt
+46087_2019.txt
+direc_daily_seasonal.csv
+direc_hrdps_eigvecs.csv
+direc_hrdps_fracVar.csv
+direc_hrdps_PCs.csv
+environment.yaml
+hrdps_dates.csv
+hrdps_day_avgs_postSep2014.nc
+hrdps_hourly_postSep2014.nc
+hrdps_lat.csv
+hrdps_lon.csv
+LoadFiles2.ipynb
+LoadFiles-DJL2.ipynb
+LoadFiles-DJL.ipynb
+LoadFiles.ipynb
+Load_HRDPShourly.ipynb
+LoadNeahBay.ipynb
+LoadPortAngeles.ipynb
+LoadRaceRocks.ipynb
+LoadSheringham.ipynb
+neah.csv
+PCA_hourly.ipynb
+PCA.ipynb
+P_daily_seasonal.csv
+P_hrdps_eigvecs.csv
+P_hrdps_fracVar.csv
+P_hrdps_PCs.csv
+PortAngeles.csv
+P_RCM_eigvecs.csv
+P_RCM_fracVar.csv
+P_RCM_PCs.csv
+proj-slp.ipynb
+proj-wind.ipynb
+P_seasonal.csv
+psl_NAM-22_CCCma-CanESM2_rcp45_r1i1p1_CCCma-CanRCM4_r2_day_20110101-20151231.nc
+psl_NAM-22_CCCma-CanESM2_rcp45_r1i1p1_CCCma-CanRCM4_r2_day_20160101-20201231.nc
+ptaw2015.txt
+ptaw2016.txt
+ptaw2017.txt
+ptaw2018.txt
+ptaw2019.txt
+RaceRocks.csv
+RCM_dates.csv
+RCM_lat.csv
+RCM_lon.csv
+SandHead_compare.ipynb
+Sheringham.csv
+SH_total_31Dec2020.dat
+speed_daily_seasonal.csv
+speed_hrdps_eigvecs.csv
+speed_hrdps_fracVar.csv
+speed_hrdps_PCs.csv
+speed_seasonal.csv
+Station_HRDPS.ipynb
+uas_NAM-22_CCCma-CanESM2_rcp45_r1i1p1_CCCma-CanRCM4_r2_day_20110101-20151231.nc
+uas_NAM-22_CCCma-CanESM2_rcp45_r1i1p1_CCCma-CanRCM4_r2_day_20160101-20201231.nc
+U_hrdps_eigvecs.csv
+U_hrdps_fracVar.csv
+U_hrdps_PCs.csv
+U_RCM_eigvecs.csv
+U_RCM_fracVar.csv
+U_RCM_PCs.csv
+vas_NAM-22_CCCma-CanESM2_rcp45_r1i1p1_CCCma-CanRCM4_r2_day_20110101-20151231.nc
+vas_NAM-22_CCCma-CanESM2_rcp45_r1i1p1_CCCma-CanRCM4_r2_day_20160101-20201231.nc
+V_hrdps_eigvecs.csv
+V_hrdps_fracVar.csv
+V_hrdps_PCs.csv
+V_RCM_eigvecs.csv
+V_RCM_fracVar.csv
+V_RCM_PCs.csv
+(base) chum:eosc510$ nano .gitignore
+
+  GNU nano 2.5.3              File: .gitignore                                  
+
+# Py
